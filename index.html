@@ -12,13 +12,20 @@
 <style>
 	body {
 		background-color: rgb(200, 245, 255);
+		font-family: Ariel;
 	}
 	.navbar-custom {
-		background-color: rgb(255, 255, 255);
-		<!--position: absolute;
+		background-color: rgb(230, 250, 255);
+		position: absolute;
 		left: 0;
 		top: 0;
-		right: 0;-->
+		width: 100%;
+		border-color: black;
+	}
+	.caret {
+    		border-left: 8px solid transparent;
+    		border-right: 8px solid transparent;
+    		border-top: 8px solid #000000;
 	}
 	
 </style>
@@ -27,7 +34,7 @@
 <body>
 
 <nav class="navbar navbar-custom">
-	<div class="container">
+	<div class="container_fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 				<span class="icon-bar"></span>
@@ -37,25 +44,28 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                       	<li><a href="./index.html">Home</a></li>
-			<li><a href="testextra.html">About Me</a></li>
-                        	<li class="dropdown"><a href="testextra.html"> Research <span class="caret"></span></a>
+                       	<li><a href="./index.html" style="color:black;font-size:150%">Home</a></li>
+                        	<li class="dropdown"><a href="testextra.html" style="color:black;font-size:150%">Research<span class="caret"></span></a>
                             	<ul class="dropdown-menu">
-                                		<li><a href="testextra.html">Persistent Homology of the Cosmic Web</a></li>
-					<li><a href="testextra.html">Void Clustering and Heirarchy</a></li>
-                                		<li><a href="testextra.html">Caustics in Large-Scale Structure</a></li>
+                                		<li><a href="testextra.html" style="color:black;font-size:150%">Charge Exchange</a></li>
+					<li><a href="testextra.html" style="color:black;font-size:150%">High Purity OAM</a></li>
+                                		<li><a href="testextra.html" style="color:black;font-size:150%">Black Holes AdS/CFT</a></li>
                             	</ul></li>
-			<li class="dropdown"><a href="testextra.html"> Hobbies and Interests <span class="caret"></span></a>
+			<li class="dropdown"><a href="testextra.html" style="color:black;font-size:150%">Other Projects<span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="testextra.html">Science Olympiad</a></li>
-					<li><a href="testextra.html">Drones</a></li>
+					<li><a href="testextra.html" style="color:black;font-size:150%">The Foiler</a></li>
 				</ul></li>
-			<li><a href="testextra.html" target="_blank">Curriculum Vitae</a></li>
+			<li class="dropdown"><a href="testextra.html" style="color:black;font-size:150%">Teaching<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="testextra.html" style="color:black;font-size:150%">TAing</a></li>
+					<li><a href="testextra.html" style="color:black;font-size:150%">Tutoring</a></li>
+				</ul></li>
+			<li><a href="testextra.html" target="_blank" style="color:black;font-size:150%">CV</a></li>
 		    </ul>
 		</div>
 	</div>
 </nav>
-
+<br><br>
 <h1>Andrew Sontag</h1>
 <p>This is a test paragraph again</p>
 <img src="/headshot.jpg" style="width:320px;height:260px">
