@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+                ul.nav li.dropdown:hover ul.dropdown-menu {
+                    display: block;
+                }
+            </style>
 <style>
       body {
-         background-color: rgb(225, 245, 255);
+         background-color: rgb(200, 245, 255);
       }
 </style>
 <title>Andrew Sontag</title>
 </head>
 <body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                       	<li><a href="./index.html">Home</a></li>
+			<li><a href="./About-me.html">About Me</a></li>
+                        	<li class="dropdown"><a href="./research.html"> Research <span class="caret"></span></a>
+                            	<ul class="dropdown-menu">
+                                		<li><a href="./persistence.html">Persistent Homology of the Cosmic Web</a></li>
+					<li><a href="./voids.html">Void Clustering and Heirarchy</a></li>
+                                		<li><a href="./caustics.html">Caustics in Large-Scale Structure</a></li>
+                            	</ul></li>
+			<li class="dropdown"><a href="./hobbies.html"> Hobbies and Interests <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="./scioly.html">Science Olympiad</a></li>
+					<li><a href="./drones.html">Drones</a></li>
+				</ul></li>
+			<li><a href="./CV.pdf" target="_blank">Curriculum Vitae</a></li>
+		    </ul>
+		</div>
+	</div>
+</nav>
+
 <h1>Andrew Sontag</h1>
 <p>This is a test paragraph again</p>
 <img src="/headshot.jpg" style="width:320px;height:260px">
