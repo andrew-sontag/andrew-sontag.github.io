@@ -29,7 +29,7 @@
 	}
 	
 </style>
-<title>Andrew Sontag - Charge Exchange</title>
+<title>Andrew Sontag - High Purity OAM</title>
 </head>
 <body>
 
@@ -66,18 +66,19 @@
 	</div>
 </nav>
 <br><br>
-<h1 style="text-align:center;font-size:400%">Charge Exchange</h1><br>
+<h1 style="text-align:center;font-size:400%">High Purity OAM</h1><br>
 <div class="col-sm-2"></div>
 <div class="col-sm-8">
-<p style="font-size:150%">Between 2018 and 2022, I worked with Drs. George Clark and Peter Kollmann at the <a href="https://www.jhuapl.edu" target="_blank"><u>Applied Physics Lab (APL)</u></a> to better understand the charge exchange process in <a href="https://en.wikipedia.org/wiki/Magnetosphere_of_Saturn" target="_blank"><u>Saturn's magnetosphere</u></a>. Our work resulted in the following publication:</p>
-<a href="https://doi.org/10.1029/2021JA029310" target="_blank" style="font-size:130%">Sontag, A., Clark, G., & Kollmann, P. (2021). Charge exchange ion losses in Saturn's magnetosphere. <I>Journal of Geophysical <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Research: Space Physics</I>, 126, e2021JA029310.</a>
+<p style="font-size:150%">Between 2021 and 2023, I worked with Dr. Jay Kikkawa at the <a href="https://www.physics.upenn.edu" target="_blank"><u>University of Pennsylvania</u></a> to model and develop a method for producing laser beams with high purity <a href="https://en.wikipedia.org/wiki/Orbital_angular_momentum_of_light" target="_blank"><u>orbital angular momentum (OAM)</u></a>. Our work resulted in the following publication:</p>
+<a href="https://doi.org/10.1364/OE.473682" target="_blank" style="font-size:130%">Sontag, A., Noyan, M., & Kikkawa, J. (2022). High purity orbital angular momentum of light. <I>Optics Express</I> 30(24), 43513-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;43521.</a>
 <br><br>
-<img src="CE.jpg" style="width:960px;height:576;display:block;margin:auto">
-<p>Image taken from Figure 4 of <a href="https://doi.org/10.1029/2021JA029310" target="_blank">Sontag et al. (2021)</a></p>
+<img src="OAM.jpg" style="width:888px;height:576;display:block;margin:auto">
+<p>Image taken from Figure 2 of <a href="https://doi.org/10.1364/OE.473682" target="_blank">Sontag et al. (2022)</a></p>
 <br>
-<p style="font-size:150%">Charge exchange is the process by which hot, positively-charged ions strip electrons from cold neutral gasses. This results in a hot (energetic) neutral atom (ENA) and a cold ion. The ENA is no longer bound by the planet's magnetic field, and quickly escapes the magnetosphere. The cold ion is below the energy threshold for most instruments' ion detection. Thus, charge exchange acts as a loss process for detectible ions in the presence of neutral gasses.</p>
-<p style="font-size:150%">The goal of our research was to determine whether or not the observed ion losses in Saturn's magnetosphere could be (at least dominantly) accounted for by charge exchange. To explore this, we used data taken by the Cassini CHEMS instrument between 2004 and 2017 to form snapshot ion intensity profiles, developed a physical model of charge exchange that could take such profiles as initial conditions, and compared the outputs of the model to subsequent snapshots. We concluded that, for H<sup>+</sup> and H<sub>n</sub>O<sup>+</sup> ions between 5 and 15 Saturn radii with energies from 3 to 220 keV, charge exchange does indeed dominate the observed losses. This also allows us to make more precise conclusions about the density of Saturn's neutral torus.</p>
-<p style="font-size:150%">The picture above shows our qualitative categorization of measured ion intensity profiles, along with our hypothesized physical paths between categories. Charge exchange takes profiles along the blue arrows, acting as a loss process. Fresh injections (see the cited paper) take profiles along the red arrows, acting as a source process. As injections age, the source regions fills out the profile evenly, sending profiles back to category 1.</p>
+<p style="font-size:150%">A beam of light can carry OAM in quantities <I>m</I>&#x0210f per photon, for integer <I>m</I>, referred to as the topological charge of the beam. This occurs when each phase front of the beam forms an <I>m</I>-helix, or equivalently, when the phase of the light within a cross section perpendicular to the propagation axis varies from 0 to 2&#x3C0 &nbsp;<I>m</I> times along any path around the propagation axis. In the above figure, panels (b) and (e) show phase cross sections with <I>m</I>=3.</p>
+<p style="font-size:150%">Any configuration of light can be expressed as a linear combination of <a href="https://en.wikipedia.org/wiki/Gaussian_beam#Laguerre-Gaussian_modes">Laguerre-Gaussian (LG) modes</a>, with radial index <I>p</I> and azimuthal index <I>m</I>. A single such mode carries an OAM topological charge of precisely <I>m</I>. These modes are exact solutions of the <a href="https://en.wikipedia.org/wiki/Helmholtz_equation#Paraxial_approximation">paraxial Helmholtz equation</a>, and thus do not mix upon propagation. A single LG mode carries a well-defined topological charge, and has a perfectly localized phase singularity along its beam axis. A nontrivial linear combination of such modes, however, breaks into multiple disjoint phase singularities upon propagation. This breakdown is undesirable for many of the use-cases of OAM beams, including quantum computation.</p>
+<p style="font-size:150%">The goal of our research was to model the production of OAM modes via diffraction of a Gaussian beam off of a holographic grating (a common practice), and then to fine-tune the grating pattern in order to isolate singular LG modes, which can propagate stably. We derived a correction to the standard holographic pattern which can be applied in a number of different ways, and which allows for arbitrarily pure LG mode production with controllable intensity losses.</p>
+<p style="font-size:150%">The figure above shows cross sections of the uncorrected (top row) and corrected (bottom row) outputs of the modeled process described above. The leftmost column is the beam intensity, the middle column is the beam phase, and the rightmost column is the Poynting vector skew angle plotted versus radius.</p>
 <br><br><br><br>
 </div>
 <div class="col-sm-2"></div>
