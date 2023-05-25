@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+                ul.nav li.dropdown:hover ul.dropdown-menu {
+                    display: block;
+                }
+            </style>
+<style>
+	body {
+		background-color: rgb(230, 250, 255);
+		font-family: Ariel;
+	}
+	.navbar-custom {
+		background-color: rgb(200, 245, 255);
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		border-color: black;
+	}
+	.caret {
+    		border-left: 8px solid transparent;
+    		border-right: 8px solid transparent;
+    		border-top: 8px solid #000000;
+	}
+	
+</style>
+<title>Andrew Sontag - Foiler</title>
+</head>
+<body>
+
+<nav class="navbar navbar-custom">
+	<div class="container_fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                       	<li><a href="./index.html" style="color:black;font-size:150%">Home</a></li>
+                        	<li class="dropdown"><a href="Research.html" style="color:black;font-size:150%">Research<span class="caret"></span></a>
+                            	<ul class="dropdown-menu">
+                                		<li><a href="CE.html" style="color:black;font-size:150%">Charge Exchange</a></li>
+					<li><a href="OAM.html" style="color:black;font-size:150%">High Purity OAM</a></li>
+                                		<li><a href="BH.html" style="color:black;font-size:150%">Black Holes AdS/CFT</a></li>
+                            	</ul></li>
+			<li class="dropdown"><a href="Foil.html" style="color:black;font-size:150%">Other Projects<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="Foil.html" style="color:black;font-size:150%">The Foiler</a></li>
+				</ul></li>
+			<li class="dropdown"><a href="Teaching.html" style="color:black;font-size:150%">Teaching<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="TA.html" style="color:black;font-size:150%">TAing</a></li>
+					<li><a href="Tutor.html" style="color:black;font-size:150%">Tutoring</a></li>
+				</ul></li>
+			<li><a href="Sontag_CV.pdf" target="_blank" style="color:black;font-size:150%">CV</a></li>
+		    </ul>
+		</div>
+	</div>
+</nav>
+<br><br>
+<h1 style="text-align:center;font-size:400%">Foiler</h1><br>
+<div class="col-sm-2"></div>
+<div class="col-sm-8">
+<p style="font-size:150%">This past year, I have done a lot of coursework in quantum field theory. I found that I was spending a much higher percentage of my total effort on brute force computation than I would have liked. My go-to calculators, however, could not handle Lorentz contraction, which was crucial for the amplitudes I was computing. So I developed a Python script to simplify these computations for me.</p>
+<p style="font-size:150%">It is reasonably user-friendly and well-commented. It does not accept or prompt command line input. You need to open the script in your favorite code editor (I used Spyder), scroll to the bottom where I have included a scratch work example, replace the example computation with whatever computation you would like to run, and then run the script. The output will be "printed."</p>
+<br>
+<p style="font-size:150%"> <b>Here is the .py code file for download, as of 05/24/23: <a href="Foiler.py" download><u>Foiler.py</u></a></b></p>
+<br>
+<p style="font-size:150%"> If you or your browser are (understandably) afraid of downloading strangers' .py files, here is the same script as raw text:
+<br>
+<p style="font-size:150%"> <b>Here is the .txt code file for download, as of 05/24/23: <a href="Foiler.txt" download><u>Foiler.txt</u></a></b></p>
+<br><br><br>
+<img src="vertices.png" style="width:960px;height:639;display:block;margin:auto">
+<p>Image taken from <a href="https://doi.org/10.1142/S0217751X12300256" target="_blank">Romao and Silva (2012)</a></p>
+<br><br><br><br>
+</div>
+<div class="col-sm-2"></div>
+
+
+<!--<p style="text-align:center;font-size:180%">NSF Graduate Research Fellow at Princeton University</p>
+<p style="margin:0px;text-align:center;font-size:120%">Thank you for visiting!</p>
+<p style="margin:0px;text-align:center;font-size:120%">This website houses my affiliation and works, including my research projects (past and current), my independent projects, and my teaching experience.</p>
+<p style="text-align:center;font-size:120%">(Plus maybe an Easter Egg or two, as I learn more HTML)</p>
+<div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-5">
+	<img src="/headshot.jpg" style="width:435px;height:290px;display:block;margin:auto">
+	<h2 style="text-align:center;font-size:200%">About Me</h2>
+	<ul style="padding-left:90px;font-size:120%">
+		<li>I'm interested in using AdS/CFT to learn more about black hole creation, entropy, radiation, and evaporation!</li>
+		<li>I'm from the Baltimore area. I keep Old Bay on me at all times.</li>
+		<li>I love lifting, running, camping, and fantasy football.</li>
+	</ul>
+</div>
+<div class="col-sm-5">
+	<img src="/gradpic.jpg" style="width:435px;height:290px;display:block;margin:auto">
+	<h2 style="text-align:center;font-size:200%">Education</h2>
+	<ul style="padding-left:90px;font-size:120%">
+		<li>Bachelor of Arts in Physics, UPenn (2023)</li>
+		<li>Master of Science in Physics, UPenn (2023)</li>
+		<li>Working towards PhD in Physics, Princeton (current)</li>
+	</ul>
+</div>
+<div class="col-sm-1"></div>
+</div>
+<h2 style="text-align:center;font-size:200%">Contact Info</h2>
+<p style="text-align:center;font-size:120%">You can reach me at:&nbsp;&nbsp;&nbsp;sontaga(at)princeton(dot)edu</p>-->
+</body>
+</html>
+
+
