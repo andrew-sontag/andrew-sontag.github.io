@@ -27,6 +27,20 @@
     		border-right: 8px solid transparent;
     		border-top: 8px solid #000000;
 	}
+	:root {
+		--varpad: 0px;
+		--varpad2: 40px;
+		--varpad3: 300px;
+		--varpad4: 200px;
+	}
+	@media only screen and (max-width: 600px) {
+		:root {
+			--varpad: 15px;
+			--varpad2: 55px;
+			--varpad3: 55px;
+			--varpad4: 15px;
+		}
+	}
 	
 </style>
 <title>Andrew Sontag - TAing</title>
@@ -72,8 +86,8 @@
 <div class="row">
 	<div class="col-sm-2"></div>
 	<div class="col-sm-4">
-		<p style="font-size:150%">My responsibilities have included:</p>
-		<ul style="font-size:150%">
+		<p style="padding-left:var(--varpad);font-size:150%">My responsibilities have included:</p>
+		<ul style="padding-left:var(--varpad2);font-size:150%">
 			<li>Giving twice-weekly lectures</li>
 			<li>Holding twice-weekly recitations</li>
 			<li>Holding weekly office hours</li>
@@ -83,8 +97,8 @@
 		</ul>
 	</div>
 	<div class="col-sm-6">
-		<p style="font-size:150%">I have TAed the following classes:</p>
-		<ul style="font-size:150%">
+		<p style="padding-left:var(--varpad);font-size:150%">I have TAed the following classes:</p>
+		<ul style="padding-left:var(--varpad2);font-size:150%">
 			<li>Fall 2021: UPenn Math 1400 (single variable calculus)</li>
 			<li>Spring 2022: UPenn Math 1400 (single variable calculus)</li>
 			<li>Fall 2022: UPenn Math 1400 (single variable calculus)</li>
@@ -95,7 +109,7 @@
 <br><br>
 <div class="row">
 	<p style="text-align:center;font-size:150%">Selected Student Reviews:<br>(emphasis added, otherwise unedited)</p>
-	<ul style="padding-left:300px;padding-right:200px;font-size:150%">
+	<ul style="padding-left:var(--varpad3);padding-right:var(--varpad4);font-size:150%">
 		<li>"Andrew was really good at lightening the mood during class and office hours. He was also really encouraging and helpful to people that were confused. His <b><u>excitement for the subject</u></b> and his <b><u>positive attitude</u></b> towards learning was infectious." (Fall 2021)</li>
 		<li>"Andrew was better at lecturing than some of the professors. He was <b><u>timely, organized and had a great understanding</u></b> of the worksheet material. He also had a great attitude and seemed like he genuinely wanted to help us." (Fall 2021)</li>
 		<li>"Andrew was an excellent TA who was <b><u>able to clear any confusion</u></b> with the lecture material and go through examples that showed how to approach the problems that we would encounter through the course." (Spring 2022)</li>
