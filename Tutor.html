@@ -27,6 +27,19 @@
     		border-right: 8px solid transparent;
     		border-top: 8px solid #000000;
 	}
+	:root {
+		--varpad: 0px;
+		--varpad2: 40px;
+		--varpad3: 300px;
+		--varpad4: 200px;
+	}
+	@media only screen and (max-width: 600px) {
+		:root {
+			--varpad: 15px;
+			--varpad2: 55px;
+			--varpad3: 55px;
+			--varpad4: 15px;
+		}
 	
 </style>
 <title>Andrew Sontag - Tutoring</title>
@@ -72,8 +85,8 @@
 <div class="row">
 	<div class="col-sm-1"></div>
 	<div class="col-sm-5">
-		<p style="font-size:150%">I have tutored the following classes:</p>
-		<ul style="font-size:150%">
+		<p style="padding-left:var(--varpad);font-size:150%">I have tutored the following classes:</p>
+		<ul style="padding-left:var(--varpad2);font-size:150%">
 			<li>Standard Precalculus</li>
 			<li>AP Physics I, II, C:Mech, C:E&M</li>
 			<li>AP Chemistry</li>
@@ -91,8 +104,8 @@
 		</ul>
 	</div>
 	<div class="col-sm-6">
-		<p style="font-size:150%">I would be happy to tutor any of the following topics:</p>
-		<ul style="font-size:150%">
+		<p style="padding-left:var(--varpad);font-size:150%">I would be happy to tutor any of the following topics:</p>
+		<ul style="padding-left:var(--varpad2);font-size:150%">
 			<li>Any standard math curriculum from Algebra I through the Calculus series</li>
 			<li>Any standard physics curriculum from Mechanics through QFT</li>
 			<li>APs: Calculus AB, Calculus BC, Statistics, Chemistry, any Physics</li>
@@ -103,7 +116,7 @@
 	</div>
 </div>
 <br><br>
-<img src="bestlife.jpg" style="width:378px;height:504;display:block;margin:auto">
+<img src="bestlife.jpg" style="width:375px;height:504;display:block;margin:auto">
 <br><br><br><br>
 
 
