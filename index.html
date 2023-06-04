@@ -35,6 +35,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     		border-right: 8px solid transparent;
     		border-top: 8px solid #000000;
 	}
+	:root {
+		--varpad: 90px;
+	}
+	@media only screen and (max-width: 600px) {
+		:root {
+			--varpad: 0px;
+		}
+	}
 	
 </style>
 <title>Andrew Sontag</title>
@@ -82,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <br><br>
-<h1 style="text-align:center;font-size:400%">Andrew Sontag 04:39</h1>
+<h1 style="text-align:center;font-size:400%">Andrew Sontag 05:05</h1>
 <p style="text-align:center;font-size:180%">NSF Graduate Research Fellow at Princeton University</p>
 <p style="margin:0px;text-align:center;font-size:120%">Thank you for visiting!</p>
 <p style="margin:0px;text-align:center;font-size:120%">This website houses my affiliation and works, including my research projects (past and current), my independent projects, and my teaching experience.</p>
@@ -92,7 +100,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-sm-5">
 	<img src="/headshot.jpg" style="width:435px;height:290px;display:block;margin:auto">
 	<h2 style="text-align:center;font-size:200%">About Me</h2>
-	<ul style="padding-left:90px;font-size:120%">
+	<!--<ul style="padding-left:90px;font-size:120%">-->
+	<ul style="padding-left:var(--varpad);font-size:120%">
 		<li>I'm interested in using AdS/CFT to learn more about black hole creation, entropy, radiation, and evaporation!</li>
 		<li>I'm from the Baltimore area. I keep Old Bay on me at all times.</li>
 		<li>I love lifting, running, camping, percussion, and fantasy football.</li>
