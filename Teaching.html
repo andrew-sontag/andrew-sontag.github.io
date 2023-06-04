@@ -27,6 +27,14 @@
     		border-right: 8px solid transparent;
     		border-top: 8px solid #000000;
 	}
+	:root {
+		--varpad: 100px;
+	}
+	@media only screen and (max-width: 600px) {
+		:root {
+			--varpad: 15px;
+		}
+	}
 	
 </style>
 <title>Andrew Sontag - Teaching</title>
@@ -67,32 +75,24 @@
 </nav>
 <br><br>
 <h1 style="text-align:center;font-size:400%">My Teaching</h1><br><br>
-<div class="row">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-5">
-		<p style="text-align:center;font-size:250%"><u><a href="TA.html">TAing</a></u></p>
-		<br>
-		<img src="TA.png" style="width:235px;height:400;display:block;margin:auto">
-	</div>
-	<div class="col-sm-5">
-		<p style="text-align:center;font-size:250%"><u><a href="Tutor.html">Tutoring</a></u></p>
-		<br>
-		<img src="bestlife.jpg" style="width:300px;height:400;display:block;margin:auto">
-	</div>
-	<div class="col-sm-1"></div>
+<div class="col-sm-1"></div>
+<div class="col-sm-5">
+	<p style="text-align:center;font-size:250%"><u><a href="TA.html">TAing</a></u></p>
+	<br>
+	<img src="TA.png" style="width:235px;height:400;display:block;margin:auto">
+	<br>
+	<p style="text-align:center;padding-left:var(--varpad);padding-right:var(--varpad);font-size:120%">I have worked as a teaching assistant (TA) for UPenn calculus classes since Fall 2021.</p>
+	<br><br>
 </div>
-<br>
-<div class="row">
-	<div class="col-sm-1"></div>
-	<div class="col-sm-5">
-		<p style="text-align:center;padding-left:100px;padding-right:100px;font-size:120%">I have worked as a teaching assistant (TA) for UPenn calculus classes since Fall 2021.</p>
-	</div>
-	<div class="col-sm-5">
-		<p style="text-align:center;padding-left:100px;padding-right:100px;font-size:120%">I have worked as a tutor in physics, math, engineering, and chemistry since 2020.</p>
-	</div>
-	<div class="col-sm-1"></div>
+<div class="col-sm-5">
+	<p style="text-align:center;font-size:250%"><u><a href="Tutor.html">Tutoring</a></u></p>
+	<br>
+	<img src="bestlife.jpg" style="width:300px;height:400;display:block;margin:auto">
+	<br>
+	<p style="text-align:center;padding-left:var(--varpad);padding-right:var(--varpad);font-size:120%">I have worked as a tutor in physics, math, engineering, and chemistry since 2020.</p>
+	<br><br>
 </div>
-<br><br><br><br>
+<div class="col-sm-1"></div>
 
 
 <!--<p style="text-align:center;font-size:180%">NSF Graduate Research Fellow at Princeton University</p>
