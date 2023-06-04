@@ -39,11 +39,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	:root {
 		--varpad: 90px;
 		--botspace: 0px;
+		--picwidth: 435px;
 	}
 	@media only screen and (max-width: 600px) {
 		:root {
 			--varpad: 30px;
 			--botspace: 30px;
+			--picwidth: 375px;
 		}
 	}
 	
@@ -101,7 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="row">
 <div class="col-sm-1"></div>
 <div class="col-sm-5">
-	<img src="/headshot.jpg" style="width:435px;height:290px;display:block;margin:auto">
+	<img src="/headshot.jpg" style="width:var(--picwidth);height:290px;display:block;margin:auto">
 	<h2 style="text-align:center;font-size:200%">About Me</h2>
 	<ul style="padding-bottom:var(--botspace);padding-left:var(--varpad);font-size:120%">
 		<li>I'm interested in using AdS/CFT to learn more about black hole creation, entropy, radiation, and evaporation!</li>
@@ -110,7 +112,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</ul>
 </div>
 <div class="col-sm-5">
-	<img src="/gradpic.jpg" style="width:435px;height:290px;display:block;margin:auto">
+	<img src="/gradpic.jpg" style="width:var(--picwidth);height:290px;display:block;margin:auto">
 	<h2 style="text-align:center;font-size:200%">Education</h2>
 	<ul style="padding-left:var(--varpad);font-size:120%">
 		<li>Bachelor of Arts in Physics, UPenn (2023)</li>
