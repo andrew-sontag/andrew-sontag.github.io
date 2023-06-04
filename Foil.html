@@ -27,6 +27,16 @@
     		border-right: 8px solid transparent;
     		border-top: 8px solid #000000;
 	}
+	:root {
+		--varwid: 65vw;
+		--varhei: 43vw;
+	}
+	@media only screen and (max-width: 600px) {
+		:root {
+			--varwid: 90vw;
+			--varhei: 60vw;
+		}
+	}
 	
 </style>
 <title>Andrew Sontag - Foiler</title>
@@ -78,7 +88,7 @@
 <br>
 <p style="font-size:150%"> <b>Here is the .txt code file for download, as of 05/24/23: <a href="Foiler.txt" download><u>Foiler.txt</u></a></b></p>
 <br><br><br>
-<img src="vertices.png" style="width:960px;height:639;display:block;margin:auto">
+<img src="vertices.png" style="width:var(--varwid);height:var(--varhei);display:block;margin:auto">
 <p>Image taken from <a href="https://doi.org/10.1142/S0217751X12300256" target="_blank">Romao and Silva (2012)</a></p>
 <br><br><br><br>
 </div>
