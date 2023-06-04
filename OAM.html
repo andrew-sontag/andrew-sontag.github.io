@@ -27,6 +27,16 @@
     		border-right: 8px solid transparent;
     		border-top: 8px solid #000000;
 	}
+	:root {
+		--varwid: 60vw;
+		--varhei: 39vw;
+	}
+	@media only screen and (max-width: 600px) {
+		:root {
+			--varwid: 100vw;
+			--varhei: 65vw;
+		}
+	}
 	
 </style>
 <title>Andrew Sontag - High Purity OAM</title>
@@ -72,7 +82,7 @@
 <p style="font-size:150%">Between 2021 and 2023, I worked with Dr. Jay Kikkawa at the <a href="https://www.physics.upenn.edu" target="_blank"><u>University of Pennsylvania</u></a> to model and develop a method for producing laser beams with high purity <a href="https://en.wikipedia.org/wiki/Orbital_angular_momentum_of_light" target="_blank"><u>orbital angular momentum (OAM)</u></a>. Our work resulted in the following publication:</p>
 <a href="https://doi.org/10.1364/OE.473682" target="_blank" style="font-size:130%">Sontag, A., Noyan, M., & Kikkawa, J. (2022). High purity orbital angular momentum of light. <I>Optics Express</I> 30(24), 43513-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;43521.</a>
 <br><br>
-<img src="OAM.jpg" style="width:888px;height:576;display:block;margin:auto">
+<img src="OAM.jpg" style="width:var(--varwid);height:var(--varhei);display:block;margin:auto">
 <p>Image taken from Figure 2 of <a href="https://doi.org/10.1364/OE.473682" target="_blank">Sontag et al. (2022)</a></p>
 <br>
 <p style="font-size:150%">A beam of light can carry OAM in quantities <I>m</I>&#x0210f per photon, for integer <I>m</I>, referred to as the topological charge of the beam. This occurs when each phase front of the beam forms an <I>m</I>-helix, or equivalently, when the phase of the light within a cross section perpendicular to the propagation axis varies from 0 to 2&#x3C0 &nbsp;<I>m</I> times along any path around the propagation axis. In the above figure, panels (b) and (e) show phase cross sections with <I>m</I>=3.</p>

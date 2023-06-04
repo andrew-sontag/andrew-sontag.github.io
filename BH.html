@@ -27,6 +27,16 @@
     		border-right: 8px solid transparent;
     		border-top: 8px solid #000000;
 	}
+	:root {
+		--varwid: 65vw;
+		--varhei: 36vw;
+	}
+	@media only screen and (max-width: 600px) {
+		:root {
+			--varwid: 100vw;
+			--varhei: 55vw;
+		}
+	}
 	
 </style>
 <title>Andrew Sontag - Black Holes AdS/CFT</title>
@@ -71,7 +81,7 @@
 <div class="col-sm-8">
 <p style="font-size:150%">Starting in September 2023, I will be working at <a href="https://phy.princeton.edu" target="_blank"><u>Princeton University</u></a> to explore new techniques for solving the <a href="https://en.wikipedia.org/wiki/Black_hole_information_paradox" target="_blank"><u>black hole information paradox</u></a>, including the recent formalization of the <u><a href="https://en.wikipedia.org/wiki/AdS/CFT_correspondence" target="_blank">AdS/CFT correspondence</a></u>.</p>
 <br><br>
-<img src="BH.jpeg" style="width:960px;height:535;display:block;margin:auto">
+<img src="BH.jpeg" style="width:var(--varwid);height:var(--varhei);display:block;margin:auto">
 <p>Image taken from scientific illustrator <a href="https://alanstonebraker.com" target="_blank">Alan Stonebraker</a></p>
 <br>
 <p style="font-size:150%">Since the beginning of the 20<sup>th</sup> century, general relativity and quantum mechanics have each proved incredibly useful in making predictions about large and small scale objects, respectively. General relativity holds dear a principle called <a href="https://en.wikipedia.org/wiki/Lorentz_covariance" target="_blank">Lorentz covariance</a>, which states that the laws of physics are the same for anyone in an inertial reference frame. Quantum mechanics, on the other hand, espouses the principle of <a href="https://en.wikipedia.org/wiki/Unitarity_(physics)" target="_blank">unitarity</a>, stating that information cannot be created nor destroyed. In normal situations, both of these ideas (seem) to remain true without conflict. However, black holes introduce tension.</p>
